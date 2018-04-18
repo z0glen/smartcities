@@ -112,6 +112,10 @@ about_article = {
          in the nation, which is an impressive feat for such
         a small city.</p>
 
+        <p>
+            <img src="static/boston-traffic-1.jpg">
+        </p>
+
         <p>Boston has taken on some
         <a href="https://en.wikipedia.org/wiki/Big_Dig">ambitious roadway projects</a>
          in the past,
@@ -133,11 +137,19 @@ about_article = {
         of sensors, and to examine how people move through the intersection to
         identify ways to make the intersection safer and more efficient.</p>
 
+        <p>
+            <img src="static/verizonbostonhorizontal.jpg">
+        </p>
+
         <h3><a href="http://www.bostonplans.org/planning/planning-initiatives/boston-smart-utilities-project">Smart Utilities</a></h3>
         <p>Initiative by the Boston Planning and Development Agency to create an
         integrated utility planning framework. The goal is to reduce street closings
         for utility work by establishing a forum for utility companies to coordinate
         construction projects.</p>
+
+        <p>
+            <img src="static/smart-utils.png">
+        </p>
 
         <h3><a href="https://www.boston.gov/departments/new-urban-mechanics">Mayor’s Office of New Urban Mechanics</a></h3>
         <p>A city hall coordinated effort to pilot various experiments in new,
@@ -150,6 +162,12 @@ about_article = {
         reducing accidents and enabling those with impaired vision or limited transit
         access more options for getting around. There are currently three private
         companies approved for on-street testing along the South Boston waterfront.</p>
+
+        <p>
+            <img src="static/nutonomy.jpg">
+            <img src="static/av-testingmap.jpg">
+        </p>
+
         """,
 }
 
@@ -164,6 +182,10 @@ case_studies_article = {
         spearheading new tests and utilizing every new technology that comes along.
         Such is the case of Singapore, the Southeast Asian island nation vying to
         be the smartest city in the world.</p>
+
+        <p>
+            <img src="static/Smart-City.jpg">
+        </p>
 
         <p><a href="https://www.engadget.com/2016/11/03/singapore-smart-nation-smart-city/">Singapore</a>
         has been a hotbed of Smart City testing, as it’s government
@@ -182,6 +204,10 @@ case_studies_article = {
         parking and tolling will be automatic, as the government knows where you
         drove and where you parked.</p>
 
+        <p>
+            <img src="static/singapore.jpg">
+        </p>
+
         <p>The
         <a href="https://www.engadget.com/2018/03/16/alphabet-google-sidewalk-labs-toronto-quayside/">Sidewalk Labs initiative in Toronto</a>
         is a somewhat different approach
@@ -199,6 +225,12 @@ case_studies_article = {
         with their environment, and to better plan mobility. It’s not quite a
         clean slate, but it is an interesting chance to experiment with how modern
         urban planning intersects with big data in the context of a thriving city.</p>
+
+        <p>
+            <img src="static/sidewalk1.png">
+            <img src="static/sidewalk-map.jpg">
+        </p>
+
         """,
 }
 
@@ -214,20 +246,36 @@ boston_smart_city_article = {
     Downtown Crossing where the train doors will be, there is really very little
     development being done on automating the T.</p>
 
+    <p>
+        <img src="static/greenline.jpg">
+    </p>
+
     <h3>Dynamic Transit</h3>
     <p>Upgrading data collection to better monitor waiting passengers, and learn
     to anticipate transit needs. Dispatch additional trains when there are more
     passengers waiting, and target trains based on where people are going. Similarly,
     remapping transit routes based on more updated data.</p>
 
+    <p>
+        <img src="static/mbta.png">
+    </p>
+
     <h3>Dynamic Traffic Lights</h3>
     <p>Synchronize with each other and constantly adjust timing to allow based on
     signal inputs to make intersections more efficient. Can also be used to give
     trains, buses, bikes, pedestrians, and/or emergency vehicles priorities on the road.</p>
 
+    <p>
+        <img src="static/traffic_light.jpg">
+    </p>
+
     <h3>Vehicle to Vehicle Communication</h3>
     <p>Vehicles communication with each other and with traffic lights, to optimize
     road conditions in real time based on where people are going.</p>
+
+    <p>
+        <img src="static/v2v.jpg">
+    </p>
 
     <h3>Autonomous Vehicles</h3>
     <p>While this project has been started, it’s been a slow process. Once it
@@ -272,6 +320,6 @@ boston_smart_city_article = {
     individual remains anonymous, and that all data is thoroughly protected. It is
     also important that data is not unfairly benefiting businesses, such that they
     are able to use the data for targeted advertising, as is becoming
-    <a href="{{ url_for('advertising') }}">somewhat of a trend</a>.</p>
+    <a href="advertising">somewhat of a trend</a>.</p>
     """,
 }

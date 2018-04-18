@@ -19,6 +19,7 @@ p {
 p img {
   text-align: center;
   padding: 20px;
+  max-width: 80vw;
 }
 
 .footer {
