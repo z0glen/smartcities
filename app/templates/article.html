@@ -2,7 +2,5 @@
 
 {% block app_content %}
   <h1>{{ article.title }}</h1>
-  <p>
-    {{ article.text }}
-  </p>
+  {{ article.text|safe }}
 {% endblock %}
